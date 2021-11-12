@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_catalog/utils/routes.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class MyDrawer extends StatelessWidget {
@@ -45,16 +46,13 @@ class MyDrawer extends StatelessWidget {
                 style: TextStyle(color: Colors.black),
               ),
             ),
-            ListTile(
-              leading: Icon(
-                Icons.phone,
-                color: Colors.green.shade500,
-              ),
-              title: Text(
-                "Contact",
-                style: TextStyle(color: Colors.black),
-              ),
-            )
+            MaterialButton(
+              color: Colors.green.shade300,
+              onPressed: () {
+                Navigator.pushNamed(context, MyRoutes.timerRoute);
+              },
+              child: Text("Timer"),
+            ),
           ],
         ),
       ),

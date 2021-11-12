@@ -4,6 +4,7 @@ import 'package:flutter_catalog/pages/cart_page.dart';
 import 'package:flutter_catalog/pages/home_detailPage.dart';
 import 'package:flutter_catalog/pages/login_page.dart';
 import 'package:flutter_catalog/pages/signup_page.dart';
+import 'package:flutter_catalog/pages/timer/home_page_timer.dart';
 import 'package:flutter_catalog/utils/routes.dart';
 import 'pages/home_page.dart';
 import 'package:flutter_catalog/widgets/themes.dart';
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
             ),
         MyRoutes.cartRoute: (context) => CartPage(),
         MyRoutes.signupRoute: (context) => SignUpPage(),
+        MyRoutes.timerRoute: (context) => HomePageTimer(),
       },
     );
   }
