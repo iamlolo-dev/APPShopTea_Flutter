@@ -14,21 +14,21 @@ class SignUpPage extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                "Sign Up".text.bold.xl6.color(context.theme.buttonColor).make(),
+                "Sign Up".text.bold.xl6.color(Colors.green.shade700).make(),
                 SizedBox(height: 10),
                 "Create Your Account".text.xl3.make(),
                 SizedBox(height: 25),
                 CupertinoFormSection(
                   header: "Personal Details"
                       .text
-                      .color(context.theme.buttonColor)
+                      .color(Colors.black)
                       .make(),
                   children: [
                     CupertinoFormRow(
                       child: CupertinoTextFormFieldRow(
                         padding: EdgeInsets.symmetric(),
                         prefix:
-                            "Name".text.color(context.theme.accentColor).make(),
+                            "Name".text.color(Colors.black).make(),
                         placeholder: "Enter Name",
                       ),
                     ),
@@ -37,7 +37,7 @@ class SignUpPage extends StatelessWidget {
                         padding: EdgeInsets.symmetric(),
                         prefix: "Phone"
                             .text
-                            .color(context.theme.accentColor)
+                            .color(Colors.black)
                             .make(),
                         placeholder: "Enter Phone",
                       ),
@@ -48,7 +48,7 @@ class SignUpPage extends StatelessWidget {
                 CupertinoFormSection(
                   header: "User Details"
                       .text
-                      .color(context.theme.buttonColor)
+                      .color(Colors.black)
                       .make(),
                   children: [
                     CupertinoFormRow(
@@ -56,7 +56,7 @@ class SignUpPage extends StatelessWidget {
                         padding: EdgeInsets.symmetric(),
                         prefix: "Email"
                             .text
-                            .color(context.theme.accentColor)
+                            .color(Colors.black)
                             .make(),
                         placeholder: "Enter Email",
                       ),
@@ -66,7 +66,7 @@ class SignUpPage extends StatelessWidget {
                         padding: EdgeInsets.symmetric(),
                         prefix: "Password"
                             .text
-                            .color(context.theme.accentColor)
+                            .color(Colors.black)
                             .make(),
                         placeholder: "Enter Password",
                         obscureText: true,
@@ -77,7 +77,7 @@ class SignUpPage extends StatelessWidget {
                         padding: EdgeInsets.symmetric(),
                         prefix: "Confirm Password"
                             .text
-                            .color(context.theme.accentColor)
+                            .color(Colors.black)
                             .make(),
                         placeholder: "Enter Password",
                         obscureText: true,
@@ -89,25 +89,25 @@ class SignUpPage extends StatelessWidget {
                 CupertinoFormSection(
                   header: "Term and Condition"
                       .text
-                      .color(context.theme.buttonColor)
+                      .color(Colors.black)
                       .make(),
                   children: [
                     CupertinoFormRow(
                       child: Switch(
-                        activeColor: context.theme.buttonColor,
+                        activeColor: Colors.green.shade700,
                         value: true,
                         onChanged: (value) {},
                       ),
                       prefix: "I Agree"
                           .text
-                          .color(context.theme.accentColor)
+                          .color(Colors.black)
                           .make(),
                     ),
                   ],
                 ),
                 45.heightBox,
                 Material(
-                  color: context.theme.buttonColor,
+                  color: Colors.green.shade700,
                   borderRadius: BorderRadius.circular(8),
                   child: InkWell(
                     child: AnimatedContainer(

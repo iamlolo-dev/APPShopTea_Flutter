@@ -6,7 +6,7 @@ import 'package:velocity_x/velocity_x.dart';
 class ItemWidget extends StatelessWidget {
   final Item item;
 
-  const ItemWidget({Key key, @required this.item})
+  const ItemWidget({ Key key, this.item})
       : assert(item != null),
         super(key: key);
 
