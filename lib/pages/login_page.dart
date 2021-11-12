@@ -75,15 +75,15 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     SizedBox(height: 40),
                     Material(
-                      color: context.theme.buttonColor,
+                      color: Colors.green.shade700,
                       borderRadius:
-                          BorderRadius.circular(changeButton ? 50 : 8),
+                          BorderRadius.circular(changeButton ? 50 : 15),
                       child: InkWell(
                         onTap: () => moveToHome(context),
                         child: AnimatedContainer(
                           duration: Duration(seconds: 1),
                           alignment: Alignment.center,
-                          width: changeButton ? 50 : 150,
+                          width: changeButton ? 100 : 150,
                           height: 50,
                           child: changeButton
                               ? Icon(
@@ -104,8 +104,8 @@ class _LoginPageState extends State<LoginPage> {
                       height: 30,
                     ),
                     Material(
-                      color: context.theme.buttonColor,
-                      borderRadius: BorderRadius.circular(8),
+                      color: Colors.green.shade700,
+                      borderRadius: BorderRadius.circular(15),
                       child: InkWell(
                         onTap: () =>
                             Navigator.pushNamed(context, MyRoutes.signupRoute),

@@ -66,11 +66,11 @@ class _HomePageState extends State<HomePage> {
             )),
       ),
       appBar: AppBar(
-        centerTitle: true,
+        centerTitle: false,
         backgroundColor: Colors.transparent,
         title: Text(
-          "BuySmart",
-          style: TextStyle(color: context.accentColor),
+          "Shop by product",
+          style: TextStyle(color: Colors.black),
         ),
       ),
       body: Padding(

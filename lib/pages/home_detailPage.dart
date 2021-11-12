@@ -9,7 +9,7 @@ import 'package:flutter_catalog/models/cart.dart';
 class HomeDetailPage extends StatelessWidget {
   final Item item;
 
-  const HomeDetailPage({Key key, @required this.item})
+  const HomeDetailPage({Key key, this.item})
       : assert(item != null),
         super(key: key);
 
