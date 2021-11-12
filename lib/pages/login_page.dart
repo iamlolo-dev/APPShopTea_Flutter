@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_catalog/login_success/login_success_screen.dart';
+/*import 'package:flutter_catalog/pages/page.dart';*/
 import 'package:flutter_catalog/utils/routes.dart';
 import 'package:velocity_x/velocity_x.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
+final FirebaseAuth _auth = FirebaseAuth.instance;
+final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
 class LoginPage extends StatefulWidget {
   @override
@@ -8,6 +14,11 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+
+  TextEditingController _emailController = TextEditingController();
+  TextEditingController _passwordController = TextEditingController();
+
+
   String user = "";
   bool changeButton = false;
   final _formKey = GlobalKey<FormState>();
@@ -18,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
         changeButton = true;
       });
       await Future.delayed(Duration(seconds: 1));
-      await Navigator.pushNamed(context, MyRoutes.homeRoute);
+      await Navigator.pushNamed(context, '/login_success');
       setState(() {
         changeButton = false;
       });
@@ -42,29 +53,43 @@ class _LoginPageState extends State<LoginPage> {
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 24,
-                      color: context.accentColor),
+                      color: Colors.black),
                 ),
                 Padding(
                   padding:
-                      const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+                  const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
                   child: Column(children: [
                     TextFormField(
+                      maxLines: 1,
+                      controller: _emailController,
+                      textInputAction: TextInputAction.next,
+                      keyboardType: TextInputType.text,
                       onChanged: (value) {
                         user = value;
                         setState(() {});
                       },
                       decoration: InputDecoration(
-                          labelText: "Username", hintText: "Enter username"),
+                          labelText: "Email", hintText: "Enter username"),
+                      onFieldSubmitted: (value) {
+                        //FocusScope.of(context).requestFocus(_phoneFocusNode);
+                      },
                       validator: (value) {
                         if (value.isEmpty) {
-                          return "Password cannot be empty";
+                          return "Type your name";
                         }
                       },
                     ),
                     TextFormField(
+                      maxLines: 1,
+                      controller: _passwordController,
+                      textInputAction: TextInputAction.next,
+                      keyboardType: TextInputType.text,
                       obscureText: true,
                       decoration: InputDecoration(
                           labelText: "Password", hintText: "Enter password"),
+                      onFieldSubmitted: (value) {
+                        //FocusScope.of(context).requestFocus(_phoneFocusNode);
+                      },
                       validator: (value) {
                         if (value.length < 6) {
                           return "Length cannot be less than 6";
@@ -77,7 +102,7 @@ class _LoginPageState extends State<LoginPage> {
                     Material(
                       color: Colors.green.shade700,
                       borderRadius:
-                          BorderRadius.circular(changeButton ? 50 : 15),
+                      BorderRadius.circular(changeButton ? 50 : 15),
                       child: InkWell(
                         onTap: () => moveToHome(context),
                         child: AnimatedContainer(
@@ -87,16 +112,16 @@ class _LoginPageState extends State<LoginPage> {
                           height: 50,
                           child: changeButton
                               ? Icon(
-                                  Icons.done,
-                                  color: Colors.white,
-                                )
+                            Icons.done,
+                            color: Colors.white,
+                          )
                               : Text(
-                                  "Login",
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold),
-                                ),
+                            "Login",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold),
+                          ),
                         ),
                       ),
                     ),
@@ -141,4 +166,30 @@ class _LoginPageState extends State<LoginPage> {
       ),
     );
   }
+
+  /*void signInWithEmail() async {
+    // marked async
+    FirebaseUser user;
+    try {
+      user = await _auth.signInWithEmailAndPassword(
+          email: _emailController.text, password: _passwordController.text);
+    } catch (e) {
+      print(e.toString());
+    } finally {
+      if (user != null) {
+        // sign in successful!
+        _pushPage(context, MyRoutes.singupSuccesfull);
+      } else {
+        // sign in unsuccessful
+        print('sign in Not');
+        // ex: prompt the user to try again
+      }
+    }
+  }*/
 }
+
+  void _pushPage(BuildContext context, Widget page) {
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(builder: (_) => LoginSuccessScreen() ),
+    );
+  }
