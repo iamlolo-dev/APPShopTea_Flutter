@@ -6,7 +6,7 @@ class MyTheme {
   static ThemeData lightTheme(BuildContext context) => ThemeData(
       primarySwatch: Colors.deepPurple,
       fontFamily: GoogleFonts.lato().fontFamily,
-      buttonColor: darkBluishColor,
+      buttonColor: Colors.green.shade800,
       accentColor: Colors.black,
       cardColor: Colors.white,
       canvasColor: creamColor,
@@ -14,7 +14,7 @@ class MyTheme {
           color: Colors.white,
           elevation: 0.0,
           textTheme: Theme.of(context).textTheme,
-          iconTheme: IconThemeData(color: Colors.black)));
+          iconTheme: IconThemeData(color: Colors.grey.shade600)));
 
   static ThemeData darkTheme(BuildContext context) => ThemeData(
         fontFamily: GoogleFonts.lato().fontFamily,
@@ -32,6 +32,5 @@ class MyTheme {
 
   static Color creamColor = Color(0xfff5f5f5);
   static Color darkCreamColor = Vx.gray900;
-  static Color darkBluishColor = Color(0xff403b58);
   static Color lightBluishColor = Vx.indigo500;
 }

@@ -74,8 +74,9 @@ class _CartTotal extends StatelessWidget {
                     ));
                   },
                   style: ButtonStyle(
-                      backgroundColor:
-                          MaterialStateProperty.all(context.theme.buttonColor)),
+                    backgroundColor:
+                        MaterialStateProperty.all(context.theme.buttonColor),
+                  ),
                   child: "Buy".text.white.make(),
                 ).w32(context).h8(context)
         ],

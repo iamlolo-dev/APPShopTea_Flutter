@@ -36,7 +36,7 @@ class ItemWidget extends StatelessWidget {
             "\$${item.price}",
             textScaleFactor: 1.5,
             style: TextStyle(
-              color: context.theme.buttonColor,
+              color: Colors.black,
               fontWeight: FontWeight.bold,
             ),
           ),

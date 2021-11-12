@@ -23,7 +23,7 @@ class HomeDetailPage extends StatelessWidget {
       appBar: AppBar(
         // centerTitle: true,
         title: "Details".text.color(context.accentColor).make(),
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.green,
         actions: [
           VxBuilder(
                   mutations: {AddMutation, RemoveMutation},

@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
 
   loadData() async {
     //from local json
-     final catalogJson =
+    final catalogJson =
         await rootBundle.loadString("assets/files/catalog.json");
 
     //from network
@@ -57,32 +57,34 @@ class _HomePageState extends State<HomePage> {
             color: Colors.white,
           ),
         ).badge(
-            color: Vx.gray200,
-            size: 22,
-            count: _cart.items.length,
-            textStyle: TextStyle(
-              color: Colors.black,
-              fontWeight: FontWeight.bold,
-            )),
+          color: Vx.coolGray300,
+          size: 22,
+          count: _cart.items.length,
+          textStyle: TextStyle(
+            color: Colors.black,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
       ),
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.transparent,
         title: Text(
-          "BuySmart",
+          "Products",
           style: TextStyle(color: context.accentColor),
         ),
       ),
       body: Padding(
-          padding: const EdgeInsets.all(16),
-          child: (CatalogModel.items != null && CatalogModel.items.isNotEmpty)
-              ? ListView.builder(
-                  itemCount: CatalogModel.items.length,
-                  itemBuilder: (context, index) {
-                    return ItemWidget(item: CatalogModel.items[index]);
-                  },
-                )
-              : Center(child: CircularProgressIndicator())),
+        padding: const EdgeInsets.all(16),
+        child: (CatalogModel.items != null && CatalogModel.items.isNotEmpty)
+            ? ListView.builder(
+                itemCount: CatalogModel.items.length,
+                itemBuilder: (context, index) {
+                  return ItemWidget(item: CatalogModel.items[index]);
+                },
+              )
+            : Center(child: CircularProgressIndicator()),
+      ),
       drawer: MyDrawer(),
     );
   }

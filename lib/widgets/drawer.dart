@@ -16,10 +16,10 @@ class MyDrawer extends StatelessWidget {
                 decoration: BoxDecoration(color: context.canvasColor),
                 accountName: Text(
                   "Sumit",
-                  style: TextStyle(color: context.theme.buttonColor),
+                  style: TextStyle(color: Colors.black),
                 ),
                 accountEmail: Text("sumit.k9887@gmail.com",
-                    style: TextStyle(color: context.theme.buttonColor)),
+                    style: TextStyle(color: Colors.black)),
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage(imageUrl),
                 ),
@@ -28,31 +28,31 @@ class MyDrawer extends StatelessWidget {
             ListTile(
               leading: Icon(
                 Icons.account_box,
-                color: context.theme.buttonColor,
+                color: Colors.green.shade500,
               ),
               title: Text(
                 "Account",
-                style: TextStyle(color: context.theme.buttonColor),
+                style: TextStyle(color: Colors.black),
               ),
             ),
             ListTile(
               leading: Icon(
                 Icons.mail,
-                color: context.theme.buttonColor,
+                color: Colors.green.shade500,
               ),
               title: Text(
                 "Mail",
-                style: TextStyle(color: context.theme.buttonColor),
+                style: TextStyle(color: Colors.black),
               ),
             ),
             ListTile(
               leading: Icon(
                 Icons.phone,
-                color: context.theme.buttonColor,
+                color: Colors.green.shade500,
               ),
               title: Text(
                 "Contact",
-                style: TextStyle(color: context.theme.buttonColor),
+                style: TextStyle(color: Colors.black),
               ),
             )
           ],
