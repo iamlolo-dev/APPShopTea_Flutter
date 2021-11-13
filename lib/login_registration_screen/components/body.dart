@@ -1,12 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:email_password_login/login_screen/login_screen.dart';
-import 'package:email_password_login/model/user_model.dart';
-import 'package:email_password_login/screens/home_screen.dart';
+import 'package:email_password_login/z_model/user_model.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:velocity_x/src/extensions/string_ext.dart';
-
 import '../../themes.dart';
 
 class Body extends StatefulWidget {

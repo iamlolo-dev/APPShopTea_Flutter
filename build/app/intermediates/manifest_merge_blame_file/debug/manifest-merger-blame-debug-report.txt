@@ -129,125 +129,143 @@
 84-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\f9fdcaaf23b11f7a45dfaa74b9544926\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
 85        </service>
 86
-87        <activity
-87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
-88            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
-89            android:excludeFromRecents="true"
-89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
-90            android:exported="true"
-90-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
-91            android:launchMode="singleTask"
-91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
-92            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
-93            <intent-filter>
-93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
-94                <action android:name="android.intent.action.VIEW" />
-94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-95
-96                <category android:name="android.intent.category.DEFAULT" />
-96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-97                <category android:name="android.intent.category.BROWSABLE" />
-97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-98
-99                <data
-99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-100                    android:host="firebase.auth"
-100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-101                    android:path="/"
-101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-102                    android:scheme="genericidp" />
-102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-103            </intent-filter>
-104        </activity>
-105        <activity
-105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
-106            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
-107            android:excludeFromRecents="true"
-107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
-108            android:exported="true"
-108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
-109            android:launchMode="singleTask"
-109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
-110            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
-111            <intent-filter>
-111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
-112                <action android:name="android.intent.action.VIEW" />
-112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-113
-114                <category android:name="android.intent.category.DEFAULT" />
-114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-115                <category android:name="android.intent.category.BROWSABLE" />
-115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-116
-117                <data
-117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-118                    android:host="firebase.auth"
-118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-119                    android:path="/"
-119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-120                    android:scheme="recaptcha" />
-120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-121            </intent-filter>
-122        </activity>
+87        <provider
+87-->[:image_picker] C:\Users\WiZo\IdeaProjects\TeaApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+88            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+88-->[:image_picker] C:\Users\WiZo\IdeaProjects\TeaApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+89            android:authorities="com.example.email_password_login.flutter.image_provider"
+89-->[:image_picker] C:\Users\WiZo\IdeaProjects\TeaApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+90            android:exported="false"
+90-->[:image_picker] C:\Users\WiZo\IdeaProjects\TeaApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+91            android:grantUriPermissions="true" >
+91-->[:image_picker] C:\Users\WiZo\IdeaProjects\TeaApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+92            <meta-data
+92-->[:image_picker] C:\Users\WiZo\IdeaProjects\TeaApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+93                android:name="android.support.FILE_PROVIDER_PATHS"
+93-->[:image_picker] C:\Users\WiZo\IdeaProjects\TeaApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+94                android:resource="@xml/flutter_image_picker_file_paths" />
+94-->[:image_picker] C:\Users\WiZo\IdeaProjects\TeaApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+95        </provider>
+96
+97        <activity
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+98            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+99            android:excludeFromRecents="true"
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+100            android:exported="true"
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+101            android:launchMode="singleTask"
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+103            <intent-filter>
+103-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+104                <action android:name="android.intent.action.VIEW" />
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+105
+106                <category android:name="android.intent.category.DEFAULT" />
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+107                <category android:name="android.intent.category.BROWSABLE" />
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+108
+109                <data
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+110                    android:host="firebase.auth"
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+111                    android:path="/"
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+112                    android:scheme="genericidp" />
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+113            </intent-filter>
+114        </activity>
+115        <activity
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+116            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+117            android:excludeFromRecents="true"
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+118            android:exported="true"
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+119            android:launchMode="singleTask"
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+120            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+121            <intent-filter>
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+122                <action android:name="android.intent.action.VIEW" />
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 123
-124        <service
-124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
-125            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
-126            android:enabled="true"
-126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
-127            android:exported="false" >
-127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
-128            <intent-filter>
-128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
-129                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
-130
-131                <category android:name="android.intent.category.DEFAULT" />
-131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-132            </intent-filter>
-133        </service>
-134
-135        <provider
-135-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-136            android:name="com.google.firebase.provider.FirebaseInitProvider"
-136-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-137            android:authorities="com.example.email_password_login.firebaseinitprovider"
-137-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-138            android:directBootAware="true"
-138-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-139            android:exported="false"
-139-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-140            android:initOrder="100" />
-140-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-141
-142        <activity
-142-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-143            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-144            android:exported="false"
-144-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-145-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-146
-147        <meta-data
-147-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\d5cbc4584967a18e03313036bcd07885\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
-148            android:name="com.google.android.gms.version"
-148-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\d5cbc4584967a18e03313036bcd07885\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
-149            android:value="@integer/google_play_services_version" />
-149-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\d5cbc4584967a18e03313036bcd07885\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
-150    </application>
+124                <category android:name="android.intent.category.DEFAULT" />
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+125                <category android:name="android.intent.category.BROWSABLE" />
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+126
+127                <data
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+128                    android:host="firebase.auth"
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+129                    android:path="/"
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+130                    android:scheme="recaptcha" />
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+131            </intent-filter>
+132        </activity>
+133
+134        <service
+134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+135            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+135-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+136            android:enabled="true"
+136-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+137            android:exported="false" >
+137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+138            <intent-filter>
+138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+139                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+139-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+139-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+140
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+142            </intent-filter>
+143        </service>
+144
+145        <provider
+145-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+146            android:name="com.google.firebase.provider.FirebaseInitProvider"
+146-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+147            android:authorities="com.example.email_password_login.firebaseinitprovider"
+147-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+149            android:exported="false"
+149-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+150            android:initOrder="100" />
+150-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 151
-152</manifest>
+152        <activity
+152-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+153            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+153-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+156
+157        <meta-data
+157-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\d5cbc4584967a18e03313036bcd07885\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+158            android:name="com.google.android.gms.version"
+158-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\d5cbc4584967a18e03313036bcd07885\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+159            android:value="@integer/google_play_services_version" />
+159-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\d5cbc4584967a18e03313036bcd07885\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+160    </application>
+161
+162</manifest>

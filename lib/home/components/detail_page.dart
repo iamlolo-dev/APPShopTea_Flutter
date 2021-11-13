@@ -1,4 +1,4 @@
-import 'package:email_password_login/model/items__bd_model.dart';
+import 'package:email_password_login/z_model/items__bd_model.dart';
 import 'package:flutter/material.dart';
 
 class DetailPage extends StatefulWidget {
