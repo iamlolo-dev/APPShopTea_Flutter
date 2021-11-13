@@ -1,43 +1,23 @@
+import 'package:email_password_login/login_screen/login_screen.dart';
+import 'package:email_password_login/themes.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_catalog/core/store.dart';
-import 'package:flutter_catalog/pages/cart_page.dart';
-import 'package:flutter_catalog/pages/home_detailPage.dart';
-import 'package:flutter_catalog/pages/login_page.dart';
-import 'package:flutter_catalog/pages/signup_page.dart';
-import 'package:flutter_catalog/pages/timer/home_page_timer.dart';
-import 'package:flutter_catalog/utils/routes.dart';
-import 'login_success/login_success_screen.dart';
-import 'pages/home_page.dart';
-import 'package:flutter_catalog/widgets/themes.dart';
-import 'package:velocity_x/velocity_x.dart';
-import 'package:url_strategy/url_strategy.dart';
 
-void main() {
-  setPathUrlStrategy();
-  runApp(VxState(store: MyStore(), child: MyApp()));
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       theme: MyTheme.lightTheme(context),
-      darkTheme: MyTheme.darkTheme(context),
-      debugShowCheckedModeBanner: false,
-      initialRoute: MyRoutes.loginRoute,
-      routes: {
-        "/": (context) => LoginPage(),
-        MyRoutes.homeRoute: (context) => HomePage(),
-        MyRoutes.loginRoute: (context) => LoginPage(),
-        MyRoutes.detailRoute: (context) => HomeDetailPage(
-              item: null,
-            ),
-        MyRoutes.cartRoute: (context) => CartPage(),
-        MyRoutes.signupRoute: (context) => SignUpPage(),
-        MyRoutes.timerRoute: (context) => HomePageTimer(),
-        MyRoutes.LoginSucces: (context) => LoginSuccessScreen(),
-      },
+      home: LoginScreen(),
     );
   }
 }

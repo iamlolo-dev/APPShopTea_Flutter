@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_catalog/components/default_button.dart';
-import 'package:flutter_catalog/utils/routes.dart';
+
+import 'default_button.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -12,7 +12,7 @@ class Body extends StatelessWidget {
           height: 150,
         ),
         Image.asset(
-          "assets/images/success.png",
+          "assets/success.png",
           height: 100, //40%
         ),
         SizedBox(height: 50),
@@ -30,7 +30,7 @@ class Body extends StatelessWidget {
           child: DefaultButton(
             text: "Back to home",
             press: () {
-              Navigator.pushNamed(context, MyRoutes.homeRoute);
+              //Navigator.pushNamed(context, MyRoutes.homeRoute);
             },
           ),
         ),

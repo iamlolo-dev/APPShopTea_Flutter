@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "744036634691",
+    "project_id": "apptimetealogin",
+    "storage_bucket": "apptimetealogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744036634691:android:30a39a2b40e0ae1b62c4f6",
+        "android_client_info": {
+          "package_name": "com.example.email_password_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744036634691-t6o074ssbq68i7m146fapci4qdtfplhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFoEKbji7blqznt45cW_PFu1GN8mVSC2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744036634691-t6o074ssbq68i7m146fapci4qdtfplhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

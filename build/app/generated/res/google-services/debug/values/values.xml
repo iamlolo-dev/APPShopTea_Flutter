@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">744036634691-t6o074ssbq68i7m146fapci4qdtfplhv.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">744036634691</string>
+    <string name="google_api_key" translatable="false">AIzaSyCFoEKbji7blqznt45cW_PFu1GN8mVSC2k</string>
+    <string name="google_app_id" translatable="false">1:744036634691:android:30a39a2b40e0ae1b62c4f6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCFoEKbji7blqznt45cW_PFu1GN8mVSC2k</string>
+    <string name="google_storage_bucket" translatable="false">apptimetealogin.appspot.com</string>
+    <string name="project_id" translatable="false">apptimetealogin</string>
+</resources>
