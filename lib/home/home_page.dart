@@ -91,7 +91,7 @@ class HomePage extends StatelessWidget {
                           ),
                           Tab(
                             icon: Icon(Icons.person),
-                            child: Text("Login"),
+                            child: Text("Profile"),
                           ),
                         ],
                       ),
