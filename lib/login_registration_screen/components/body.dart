@@ -20,7 +20,6 @@ class _BodyState extends State<Body> {
   // string for displaying the error Message
   String? errorMessage;
 
-
   // our form key
   final _formKey = GlobalKey<FormState>();
 
@@ -224,6 +223,7 @@ class _BodyState extends State<Body> {
       ),
     );
   }
+
   void signUp(String email, String password) async {
     if (_formKey.currentState!.validate()) {
       try {
@@ -261,6 +261,7 @@ class _BodyState extends State<Body> {
       }
     }
   }
+
   postDetailsToFirestore() async {
     // calling our firestore
     // calling our user model
@@ -286,6 +287,6 @@ class _BodyState extends State<Body> {
     Navigator.pushAndRemoveUntil(
         (context),
         MaterialPageRoute(builder: (context) => LoginScreen()),
-            (route) => false);
+        (route) => false);
   }
 }
