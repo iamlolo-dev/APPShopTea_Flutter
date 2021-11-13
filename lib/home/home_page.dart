@@ -104,7 +104,7 @@ class HomePage extends StatelessWidget {
                           children: <Widget>[
                             Shop(),
                             Timer(),
-                            Profile(),
+                            ProfileScreen(),
                           ],
                         ),
                       )
