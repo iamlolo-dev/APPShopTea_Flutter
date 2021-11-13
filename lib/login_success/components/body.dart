@@ -1,3 +1,4 @@
+import 'package:email_password_login/home/home_page.dart';
 import 'package:flutter/material.dart';
 
 import 'default_button.dart';
@@ -30,7 +31,9 @@ class Body extends StatelessWidget {
           child: DefaultButton(
             text: "Back to home",
             press: () {
-              //Navigator.pushNamed(context, MyRoutes.homeRoute);
+              Navigator.push(
+                  context,MaterialPageRoute(
+                  builder: (context) => HomePage()));
             },
           ),
         ),
