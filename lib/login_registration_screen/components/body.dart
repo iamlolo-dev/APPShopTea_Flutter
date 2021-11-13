@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:email_password_login/login_screen/login_screen.dart';
 import 'package:email_password_login/model/user_model.dart';
-import 'package:email_password_login/screens/home_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -21,7 +20,6 @@ class _BodyState extends State<Body> {
 
   // string for displaying the error Message
   String? errorMessage;
-
 
   // our form key
   final _formKey = GlobalKey<FormState>();
@@ -226,6 +224,7 @@ class _BodyState extends State<Body> {
       ),
     );
   }
+
   void signUp(String email, String password) async {
     if (_formKey.currentState!.validate()) {
       try {
@@ -263,6 +262,7 @@ class _BodyState extends State<Body> {
       }
     }
   }
+
   postDetailsToFirestore() async {
     // calling our firestore
     // calling our user model
@@ -288,6 +288,6 @@ class _BodyState extends State<Body> {
     Navigator.pushAndRemoveUntil(
         (context),
         MaterialPageRoute(builder: (context) => LoginScreen()),
-            (route) => false);
+        (route) => false);
   }
 }

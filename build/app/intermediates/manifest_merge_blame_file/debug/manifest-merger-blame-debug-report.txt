@@ -12,35 +12,35 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
-15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
 16
 17    <application
-17-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:3:4-40:19
+17-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:3:4-40:19
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\661916236e43717cc696f8739fdee049\core-1.1.0\AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.1.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\661916236e43717cc696f8739fdee049\core-1.1.0\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:5:9-43
+20-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:5:9-43
 21        android:label="email_password_login" >
-21-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:4:9-45
+21-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:4:9-45
 22        <activity
-22-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:6:9-34:20
+22-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:6:9-34:20
 23            android:name="com.example.email_password_login.MainActivity"
-23-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:7:13-41
+23-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:7:13-41
 24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-24-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:10:13-163
+24-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:10:13-163
 25            android:hardwareAccelerated="true"
-25-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:11:13-47
+25-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:11:13-47
 26            android:launchMode="singleTop"
-26-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:8:13-43
+26-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:8:13-43
 27            android:theme="@style/LaunchTheme"
-27-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:9:13-47
+27-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:9:13-47
 28            android:windowSoftInputMode="adjustResize" >
-28-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:12:13-55
+28-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:12:13-55
 29
 30            <!--
 31                 Specifies an Android theme to apply to this Activity as soon as
@@ -49,11 +49,11 @@
 34                 to determine the Window background behind the Flutter UI.
 35            -->
 36            <meta-data
-36-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:17:13-20:17
+36-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:17:13-20:17
 37                android:name="io.flutter.embedding.android.NormalTheme"
-37-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:18:15-70
+37-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:18:15-70
 38                android:resource="@style/NormalTheme" />
-38-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:19:15-52
+38-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:19:15-52
 39            <!--
 40                 Displays an Android View that continues showing the launch screen
 41                 Drawable until Flutter paints its first frame, then this splash
@@ -68,14 +68,14 @@
 50              />
 51            -->
 52            <intent-filter>
-52-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:30:13-33:29
+52-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:30:13-33:29
 53                <action android:name="android.intent.action.MAIN" />
-53-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:31:17-68
-53-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:31:25-66
+53-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:31:17-68
+53-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:31:25-66
 54
 55                <category android:name="android.intent.category.LAUNCHER" />
-55-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:32:17-76
-55-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:32:27-74
+55-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:32:17-76
+55-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:32:27-74
 56            </intent-filter>
 57        </activity>
 58        <!--
@@ -83,171 +83,171 @@
 60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 61        -->
 62        <meta-data
-62-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:37:9-39:33
+62-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:37:9-39:33
 63            android:name="flutterEmbedding"
-63-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:38:13-44
+63-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:38:13-44
 64            android:value="2" />
-64-->C:\Users\WiZo\IdeaProjects\TeaApp\android\app\src\main\AndroidManifest.xml:39:13-30
+64-->C:\Users\xavia\Documents\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:39:13-30
 65
 66        <service
-66-->[:firebase_auth] C:\Users\WiZo\IdeaProjects\TeaApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+66-->[:firebase_auth] C:\Users\xavia\Documents\GitHub\TeaApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 67            android:name="com.google.firebase.components.ComponentDiscoveryService"
-67-->[:firebase_auth] C:\Users\WiZo\IdeaProjects\TeaApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+67-->[:firebase_auth] C:\Users\xavia\Documents\GitHub\TeaApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
 68            android:directBootAware="true"
-68-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+68-->[com.google.firebase:firebase-common:20.0.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 69            android:exported="false" >
-69-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+69-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
 70            <meta-data
-70-->[:firebase_auth] C:\Users\WiZo\IdeaProjects\TeaApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+70-->[:firebase_auth] C:\Users\xavia\Documents\GitHub\TeaApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-71-->[:firebase_auth] C:\Users\WiZo\IdeaProjects\TeaApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+71-->[:firebase_auth] C:\Users\xavia\Documents\GitHub\TeaApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 72                android:value="com.google.firebase.components.ComponentRegistrar" />
-72-->[:firebase_auth] C:\Users\WiZo\IdeaProjects\TeaApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+72-->[:firebase_auth] C:\Users\xavia\Documents\GitHub\TeaApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 73            <meta-data
-73-->[:cloud_firestore] C:\Users\WiZo\IdeaProjects\TeaApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+73-->[:cloud_firestore] C:\Users\xavia\Documents\GitHub\TeaApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-74-->[:cloud_firestore] C:\Users\WiZo\IdeaProjects\TeaApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+74-->[:cloud_firestore] C:\Users\xavia\Documents\GitHub\TeaApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
 75                android:value="com.google.firebase.components.ComponentRegistrar" />
-75-->[:cloud_firestore] C:\Users\WiZo\IdeaProjects\TeaApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+75-->[:cloud_firestore] C:\Users\xavia\Documents\GitHub\TeaApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 76            <meta-data
-76-->[:firebase_core] C:\Users\WiZo\IdeaProjects\TeaApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+76-->[:firebase_core] C:\Users\xavia\Documents\GitHub\TeaApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-77-->[:firebase_core] C:\Users\WiZo\IdeaProjects\TeaApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+77-->[:firebase_core] C:\Users\xavia\Documents\GitHub\TeaApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 78                android:value="com.google.firebase.components.ComponentRegistrar" />
-78-->[:firebase_core] C:\Users\WiZo\IdeaProjects\TeaApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+78-->[:firebase_core] C:\Users\xavia\Documents\GitHub\TeaApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 79            <meta-data
-79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
 80                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
 81                android:value="com.google.firebase.components.ComponentRegistrar" />
-81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
 82            <meta-data
-82-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\f9fdcaaf23b11f7a45dfaa74b9544926\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+82-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\f9fdcaaf23b11f7a45dfaa74b9544926\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
 83                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-83-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\f9fdcaaf23b11f7a45dfaa74b9544926\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+83-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\f9fdcaaf23b11f7a45dfaa74b9544926\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
 84                android:value="com.google.firebase.components.ComponentRegistrar" />
-84-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\f9fdcaaf23b11f7a45dfaa74b9544926\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+84-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\f9fdcaaf23b11f7a45dfaa74b9544926\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
 85        </service>
 86
 87        <activity
-87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
 88            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
 89            android:excludeFromRecents="true"
-89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
 90            android:exported="true"
-90-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+90-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
 91            android:launchMode="singleTask"
-91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
 92            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
 93            <intent-filter>
-93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
 94                <action android:name="android.intent.action.VIEW" />
-94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 95
 96                <category android:name="android.intent.category.DEFAULT" />
-96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
 97                <category android:name="android.intent.category.BROWSABLE" />
-97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
 98
 99                <data
-99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
 100                    android:host="firebase.auth"
-100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
 101                    android:path="/"
-101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
 102                    android:scheme="genericidp" />
-102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
 103            </intent-filter>
 104        </activity>
 105        <activity
-105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
 106            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
 107            android:excludeFromRecents="true"
-107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
 108            android:exported="true"
-108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
 109            android:launchMode="singleTask"
-109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
 110            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
 111            <intent-filter>
-111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
 112                <action android:name="android.intent.action.VIEW" />
-112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 113
 114                <category android:name="android.intent.category.DEFAULT" />
-114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
 115                <category android:name="android.intent.category.BROWSABLE" />
-115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
 116
 117                <data
-117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
 118                    android:host="firebase.auth"
-118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
 119                    android:path="/"
-119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
 120                    android:scheme="recaptcha" />
-120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
 121            </intent-filter>
 122        </activity>
 123
 124        <service
-124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
 125            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
 126            android:enabled="true"
-126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
 127            android:exported="false" >
-127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
 128            <intent-filter>
-128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
 129                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
 130
 131                <category android:name="android.intent.category.DEFAULT" />
-131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\06e335a88f29e892ea89e02a9cd741a6\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
 132            </intent-filter>
 133        </service>
 134
 135        <provider
-135-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+135-->[com.google.firebase:firebase-common:20.0.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
 136            android:name="com.google.firebase.provider.FirebaseInitProvider"
-136-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+136-->[com.google.firebase:firebase-common:20.0.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
 137            android:authorities="com.example.email_password_login.firebaseinitprovider"
-137-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+137-->[com.google.firebase:firebase-common:20.0.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
 138            android:directBootAware="true"
-138-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+138-->[com.google.firebase:firebase-common:20.0.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
 139            android:exported="false"
-139-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+139-->[com.google.firebase:firebase-common:20.0.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
 140            android:initOrder="100" />
-140-->[com.google.firebase:firebase-common:20.0.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+140-->[com.google.firebase:firebase-common:20.0.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\a43864ea4e098ef6189d5e2b76fd253d\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 141
 142        <activity
-142-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+142-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 143            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 144            android:exported="false"
-144-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+144-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
 145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-145-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+145-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\1f9db97eb152a36493e18af28499b1e2\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 146
 147        <meta-data
-147-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\d5cbc4584967a18e03313036bcd07885\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+147-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\d5cbc4584967a18e03313036bcd07885\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
 148            android:name="com.google.android.gms.version"
-148-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\d5cbc4584967a18e03313036bcd07885\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+148-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\d5cbc4584967a18e03313036bcd07885\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
 149            android:value="@integer/google_play_services_version" />
-149-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\WiZo\.gradle\caches\transforms-2\files-2.1\d5cbc4584967a18e03313036bcd07885\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+149-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\d5cbc4584967a18e03313036bcd07885\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
 150    </application>
 151
 152</manifest>
