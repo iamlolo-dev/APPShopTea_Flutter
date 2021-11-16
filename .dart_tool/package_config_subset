@@ -10,6 +10,10 @@ auto_size_text_pk
 2.12
 file:///C:/Users/xavia/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/auto_size_text_pk-3.0.0/
 file:///C:/Users/xavia/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/auto_size_text_pk-3.0.0/lib/
+bloc
+2.12
+file:///C:/Users/xavia/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.2.1/
+file:///C:/Users/xavia/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.2.1/lib/
 boolean_selector
 2.12
 file:///C:/Users/xavia/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0/
@@ -50,6 +54,10 @@ cupertino_icons
 2.12
 file:///C:/Users/xavia/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4/
 file:///C:/Users/xavia/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4/lib/
+equatable
+2.12
+file:///C:/Users/xavia/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/equatable-2.0.3/
+file:///C:/Users/xavia/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/equatable-2.0.3/lib/
 fake_async
 2.12
 file:///C:/Users/xavia/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0/

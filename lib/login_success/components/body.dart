@@ -1,4 +1,4 @@
-import 'package:email_password_login/home/home_page.dart';
+import 'package:email_password_login/view/home_page.dart';
 import 'package:flutter/material.dart';
 
 import 'default_button.dart';
