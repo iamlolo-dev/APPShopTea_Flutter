@@ -30,7 +30,6 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
     });
   }
 
-
   @override
   Widget build(BuildContext context){
     return Scaffold(
