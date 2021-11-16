@@ -102,8 +102,8 @@ class HomePage extends StatelessWidget {
                         height: height * 0.6,
                         child: TabBarView(
                           children: <Widget>[
-                            Shop(),
-                            Timer(),
+                            MainPageShop(),
+                            MainPageTimer(),
                             ProfileScreen(),
                           ],
                         ),

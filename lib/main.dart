@@ -2,6 +2,7 @@ import 'package:email_password_login/login_screen/login_screen.dart';
 import 'package:email_password_login/themes.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'themes.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

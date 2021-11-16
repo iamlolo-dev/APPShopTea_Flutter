@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
+import 'components/body.dart';
 
-class Timer extends StatelessWidget {
+class MainPageTimer extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.blue,
-      child: Center(
-        child: Text("Cold Coffee"),
-      ),
+    return Scaffold(
+      body: Body(title: '',),
     );
   }
 }
