@@ -1,3 +1,4 @@
+import 'package:email_password_login/view/components/timer/timer/timer.dart';
 import 'package:flutter/material.dart';
 
 class HomePageTimer extends StatefulWidget {
@@ -15,6 +16,14 @@ class _HomePageTimerState extends State<HomePageTimer> {
             Icons.alarm,
             color: Colors.teal,
           ),
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => Timer(seg: 60),
+              ),
+            );
+          },
           title: Text("Green tea"),
           subtitle: Text("1 minute"),
           trailing: Row(
@@ -32,6 +41,14 @@ class _HomePageTimerState extends State<HomePageTimer> {
             Icons.alarm,
             color: Colors.teal,
           ),
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => Timer(seg: 120),
+              ),
+            );
+          },
           title: Text("Black tea"),
           subtitle: Text("2 minutes"),
           trailing: Row(
@@ -49,6 +66,14 @@ class _HomePageTimerState extends State<HomePageTimer> {
             Icons.alarm,
             color: Colors.teal,
           ),
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => Timer(seg: 300),
+              ),
+            );
+          },
           title: Text("White tea"),
           subtitle: Text("5 minutes"),
           trailing: Row(
@@ -66,6 +91,14 @@ class _HomePageTimerState extends State<HomePageTimer> {
             Icons.alarm,
             color: Colors.teal,
           ),
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => Timer(seg: 240),
+              ),
+            );
+          },
           title: Text("Red tea"),
           subtitle: Text("4 minutes"),
           trailing: Row(

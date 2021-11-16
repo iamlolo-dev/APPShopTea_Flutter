@@ -1,7 +1,6 @@
-import 'package:email_password_login/view/components/timer/home_page.dart';
-import 'package:email_password_login/view/components/timer/home_page/home_page.dart';
 import 'package:email_password_login/view/components/main_page_shop.dart';
 import 'package:email_password_login/view/components/main_page_profile.dart';
+import 'package:email_password_login/view/components/timer/home_page_timer.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
