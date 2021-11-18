@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\xavia\\Documents\\GitHub\\TeaApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
+            "outputFile": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\values-bn\\values-bn.xml",

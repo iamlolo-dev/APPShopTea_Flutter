@@ -15,28 +15,37 @@ class Body extends StatefulWidget {
 class _BodyState extends State<Body> with TickerProviderStateMixin {
   //variable
   int timeStart = 60;
+  bool shouldStop = true;
+  late Timer _time;
 
-  //timer method
-  void _StartCountDown() {
-    Timer.periodic(Duration(seconds: 1), (timer) {
-      if (timeStart > 0) {
-        setState(
-          () {
-            timeStart--;
-          },
-        );
-      } else {
-        timer.cancel();
-      }
+  @mustCallSuper
+  void initState() => _time = Timer.periodic(
+        Duration(seconds: 1),
+        (timer) {
+          if (timeStart > 0) {
+            setState(() {
+              timeStart--;
+            });
+          }
+        },
+      );
+
+  @mustCallSuper
+  void dispose() {
+    shouldStop = false;
+    setState(() {
+      timeStart = 60;
+      _time.cancel();
     });
   }
 
-  void _RestartCountDown() {
-    setState(
-      () {
-        timeStart = 60;
-      },
-    );
+  //timer method
+  void _startCountDown() {
+    initState();
+  }
+
+  void _restartCountDown() {
+    dispose();
   }
 
   @override
@@ -51,12 +60,12 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
               style: TextStyle(fontSize: 50),
             ),
             MaterialButton(
-              onPressed: _StartCountDown,
+              onPressed: initState,
               child: Text('S T A R T'),
               color: Colors.teal,
             ),
             MaterialButton(
-              onPressed: _RestartCountDown,
+              onPressed: dispose,
               child: Text("R E S T A R T"),
               color: Colors.teal,
             ),

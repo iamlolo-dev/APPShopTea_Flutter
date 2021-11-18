@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\xavia\\Documents\\GitHub\\TeaApp\\build\\flutter_plugin_android_lifecycle\\intermediates\\res\\merged\\debug\\values-fi\\values-fi.xml",
+            "outputFile": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\flutter_plugin_android_lifecycle\\intermediates\\res\\merged\\debug\\values-fi\\values-fi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\values-fi\\values-fi.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\xavia\\Documents\\GitHub\\TeaApp\\build\\flutter_plugin_android_lifecycle\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+            "outputFile": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\flutter_plugin_android_lifecycle\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\values-fi\\values-fi.xml",
