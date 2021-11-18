@@ -1,3 +1,5 @@
+// ignore_for_file: must_call_super
+
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -15,10 +17,9 @@ class Body extends StatefulWidget {
 class _BodyState extends State<Body> with TickerProviderStateMixin {
   //variable
   int timeStart = 60;
-  bool shouldStop = true;
+
   late Timer _time;
 
-  @mustCallSuper
   void initState() => _time = Timer.periodic(
         Duration(seconds: 1),
         (timer) {
@@ -30,22 +31,11 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
         },
       );
 
-  @mustCallSuper
   void dispose() {
-    shouldStop = false;
     setState(() {
-      timeStart = 60;
+      timeStart = this.timeStart;
       _time.cancel();
     });
-  }
-
-  //timer method
-  void _startCountDown() {
-    initState();
-  }
-
-  void _restartCountDown() {
-    dispose();
   }
 
   @override
@@ -59,18 +49,87 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
               timeStart == 0 ? 'Tea DONE' : timeStart.toString(),
               style: TextStyle(fontSize: 50),
             ),
-            MaterialButton(
-              onPressed: initState,
-              child: Text('S T A R T'),
-              color: Colors.teal,
-            ),
-            MaterialButton(
-              onPressed: dispose,
-              child: Text("R E S T A R T"),
-              color: Colors.teal,
-            ),
+            _timeButtons(),
+            _teaButton1(),
+            _teaButton2(),
           ],
         ),
+      ),
+    );
+  }
+
+  Widget _timeButtons() {
+    return Container(
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          FloatingActionButton(
+            onPressed: initState,
+            child: Icon(Icons.play_arrow),
+            backgroundColor: Colors.teal,
+          ),
+          FloatingActionButton(
+            onPressed: dispose,
+            child: Icon(Icons.restart_alt_outlined),
+            backgroundColor: Colors.teal,
+          )
+        ],
+      ),
+    );
+  }
+
+  Widget _teaButton1() {
+    return Container(
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          FloatingActionButton.extended(
+            onPressed: () => setState(() {
+              timeStart = 60;
+              _time.cancel();
+            }),
+            label: Text("Green tea"),
+            backgroundColor: Colors.green,
+          ),
+          FloatingActionButton.extended(
+            onPressed: () => setState(
+              () {
+                timeStart = 120;
+                _time.cancel();
+              },
+            ),
+            label: Text("Black tea"),
+            backgroundColor: Colors.black,
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _teaButton2() {
+    return Container(
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          FloatingActionButton.extended(
+            onPressed: () => setState(
+              () {
+                timeStart = 240;
+                _time.cancel();
+              },
+            ),
+            label: Text("White tea"),
+            backgroundColor: Colors.grey,
+          ),
+          FloatingActionButton.extended(
+            onPressed: () => setState(() {
+              timeStart = 180;
+              _time.cancel();
+            }),
+            label: Text("Red tea"),
+            backgroundColor: Colors.red,
+          )
+        ],
       ),
     );
   }
