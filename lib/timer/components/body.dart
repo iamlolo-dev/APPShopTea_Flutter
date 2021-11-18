@@ -3,9 +3,8 @@ import 'dart:async';
 
 import 'package:flutter/rendering.dart';
 
-
 class Body extends StatefulWidget {
-  Body({ Key? key,  required this.title}) : super(key: key);
+  Body({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
@@ -18,20 +17,30 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
   int timeStart = 60;
 
   //timer method
-  void _StartCountDown(){
+  void _StartCountDown() {
     Timer.periodic(Duration(seconds: 1), (timer) {
       if (timeStart > 0) {
-        setState(() {
-          timeStart--;
-        });
+        setState(
+          () {
+            timeStart--;
+          },
+        );
       } else {
         timer.cancel();
       }
     });
   }
 
+  void _RestartCountDown() {
+    setState(
+      () {
+        timeStart = 60;
+      },
+    );
+  }
+
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
         child: Column(
@@ -46,11 +55,14 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
               child: Text('S T A R T'),
               color: Colors.teal,
             ),
+            MaterialButton(
+              onPressed: _RestartCountDown,
+              child: Text("R E S T A R T"),
+              color: Colors.teal,
+            ),
           ],
         ),
       ),
     );
   }
-
-
 }
