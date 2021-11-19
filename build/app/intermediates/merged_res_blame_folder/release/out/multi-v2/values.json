@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\xavia\\Documents\\GitHub\\TeaApp\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\d5cbc4584967a18e03313036bcd07885\\jetified-play-services-basement-17.1.0\\res\\values\\values.xml",
@@ -76,20 +76,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\xavia\\Documents\\GitHub\\TeaApp\\build\\app\\generated\\res\\google-services\\release\\values\\values.xml",
+                    "source": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,713",
-                        "endColumns": "143,81,103,108,119,98,75",
-                        "endOffsets": "194,276,380,489,609,708,784"
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,830",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,996"
                     },
                     "to": {
-                        "startLines": "111,112,113,114,115,116,117",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "8183,8327,8409,8513,8622,8742,8841",
-                        "endColumns": "143,81,103,108,119,98,75",
-                        "endOffsets": "8322,8404,8508,8617,8737,8836,8912"
+                        "startLines": "119,124",
+                        "startColumns": "4,4",
+                        "startOffsets": "8988,9285",
+                        "endLines": "123,126",
+                        "endColumns": "12,12",
+                        "endOffsets": "9280,9449"
                     }
                 },
                 {
@@ -112,22 +114,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\xavia\\Documents\\GitHub\\TeaApp\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\generated\\res\\google-services\\release\\values\\values.xml",
                     "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,830",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,996"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,713",
+                        "endColumns": "143,81,103,108,119,98,75",
+                        "endOffsets": "194,276,380,489,609,708,784"
                     },
                     "to": {
-                        "startLines": "119,124",
-                        "startColumns": "4,4",
-                        "startOffsets": "8988,9285",
-                        "endLines": "123,126",
-                        "endColumns": "12,12",
-                        "endOffsets": "9280,9449"
+                        "startLines": "111,112,113,114,115,116,117",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "8183,8327,8409,8513,8622,8742,8841",
+                        "endColumns": "143,81,103,108,119,98,75",
+                        "endOffsets": "8322,8404,8508,8617,8737,8836,8912"
                     }
                 }
             ]
