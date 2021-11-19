@@ -4174,8 +4174,8 @@ com.google.api.DocumentationProto
 com.google.common.hash.MacHashFunction$MacHasher
 com.google.api.MetricDescriptor$MetricDescriptorMetadata
 io.flutter.plugins.firebase.firestore.R$integer
-androidx.browser.customtabs.CustomTabsCallback
 androidx.core.app.ActivityOptionsCompat
+androidx.browser.customtabs.CustomTabsCallback
 com.google.gson.internal.UnsafeAllocator$3
 com.google.common.collect.CompactHashMap$3
 com.google.common.collect.Synchronized$1

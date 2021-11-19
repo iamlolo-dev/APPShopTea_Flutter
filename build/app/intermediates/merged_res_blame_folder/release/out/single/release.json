@@ -20,12 +20,12 @@
         "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\1f9db97eb152a36493e18af28499b1e2\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
-    },
-    {
         "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\drawable-v21_launch_background.xml.flat",
         "source": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
+        "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\1f9db97eb152a36493e18af28499b1e2\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_tint.xml.flat",
@@ -66,6 +66,10 @@
     {
         "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\1f9db97eb152a36493e18af28499b1e2\\jetified-play-services-base-17.1.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\mipmap-xhdpi_launcher_icon.png.flat",
+        "source": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\android\\app\\src\\main\\res\\mipmap-xhdpi\\launcher_icon.png"
     },
     {
         "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -112,8 +116,20 @@
         "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\1f9db97eb152a36493e18af28499b1e2\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
+        "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_launcher_icon.png.flat",
+        "source": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\launcher_icon.png"
+    },
+    {
         "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\mipmap-mdpi_launcher_icon.png.flat",
+        "source": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\android\\app\\src\\main\\res\\mipmap-mdpi\\launcher_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\mipmap-hdpi_launcher_icon.png.flat",
+        "source": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\android\\app\\src\\main\\res\\mipmap-hdpi\\launcher_icon.png"
     },
     {
         "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -206,6 +222,10 @@
     {
         "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
         "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\1f9db97eb152a36493e18af28499b1e2\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_launcher_icon.png.flat",
+        "source": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\launcher_icon.png"
     },
     {
         "merged": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark.xml.flat",

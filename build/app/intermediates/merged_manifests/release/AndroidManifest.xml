@@ -13,8 +13,8 @@
 
     <application
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-        android:icon="@mipmap/ic_launcher"
-        android:label="email_password_login" >
+        android:icon="@mipmap/launcher_icon"
+        android:label="Tea App" >
         <activity
             android:name="com.example.email_password_login.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

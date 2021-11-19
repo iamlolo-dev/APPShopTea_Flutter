@@ -57,62 +57,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\values-ja_values-ja.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\1f9db97eb152a36493e18af28499b1e2\\jetified-play-services-base-17.1.0\\res\\values-ja\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,347,513,631,735,926,1044,1175,1299,1492,1591,1755,1872,2051,2197,2283,2368",
-                        "endColumns": "101,165,117,103,190,117,130,123,192,98,163,116,178,145,85,84,95",
-                        "endOffsets": "346,512,630,734,925,1043,1174,1298,1491,1590,1754,1871,2050,2196,2282,2367,2463"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,211,377,499,607,798,920,1055,1364,1557,1660,1824,1945,2124,2274,2364,2453",
-                        "endColumns": "105,165,121,107,190,121,134,127,192,102,163,120,178,149,89,88,99",
-                        "endOffsets": "206,372,494,602,793,915,1050,1178,1552,1655,1819,1940,2119,2269,2359,2448,2548"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\values-ja\\values-ja.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2553",
-                        "endColumns": "100",
-                        "endOffsets": "2649"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\d5cbc4584967a18e03313036bcd07885\\jetified-play-services-basement-17.1.0\\res\\values-ja\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "180",
-                        "endOffsets": "427"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1183",
-                        "endColumns": "180",
-                        "endOffsets": "1359"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\values-fi_values-fi.arsc.flat",
             "map": [
                 {
@@ -164,6 +108,62 @@
                         "startOffsets": "105,218,403,536,644,846,974,1120,1465,1665,1773,1953,2081,2288,2457,2553,2653",
                         "endColumns": "112,184,132,107,201,127,145,135,199,107,179,127,206,168,95,99,111",
                         "endOffsets": "213,398,531,639,841,969,1115,1251,1660,1768,1948,2076,2283,2452,2548,2648,2760"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\1f9db97eb152a36493e18af28499b1e2\\jetified-play-services-base-17.1.0\\res\\values-ja\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,347,513,631,735,926,1044,1175,1299,1492,1591,1755,1872,2051,2197,2283,2368",
+                        "endColumns": "101,165,117,103,190,117,130,123,192,98,163,116,178,145,85,84,95",
+                        "endOffsets": "346,512,630,734,925,1043,1174,1298,1491,1590,1754,1871,2050,2196,2282,2367,2463"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,211,377,499,607,798,920,1055,1364,1557,1660,1824,1945,2124,2274,2364,2453",
+                        "endColumns": "105,165,121,107,190,121,134,127,192,102,163,120,178,149,89,88,99",
+                        "endOffsets": "206,372,494,602,793,915,1050,1178,1552,1655,1819,1940,2119,2269,2359,2448,2548"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2553",
+                        "endColumns": "100",
+                        "endOffsets": "2649"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\d5cbc4584967a18e03313036bcd07885\\jetified-play-services-basement-17.1.0\\res\\values-ja\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "180",
+                        "endOffsets": "427"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1183",
+                        "endColumns": "180",
+                        "endOffsets": "1359"
                     }
                 }
             ]
@@ -225,62 +225,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\values-et_values-et.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\d5cbc4584967a18e03313036bcd07885\\jetified-play-services-basement-17.1.0\\res\\values-et\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "198",
-                        "endOffsets": "445"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1261",
-                        "endColumns": "198",
-                        "endOffsets": "1455"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\values-et\\values-et.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2812",
-                        "endColumns": "100",
-                        "endOffsets": "2908"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\1f9db97eb152a36493e18af28499b1e2\\jetified-play-services-base-17.1.0\\res\\values-et\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,346,540,665,771,980,1107,1249,1377,1596,1702,1897,2027,2241,2412,2501,2592",
-                        "endColumns": "100,193,124,105,208,126,141,127,218,105,194,129,213,170,88,90,112",
-                        "endOffsets": "345,539,664,770,979,1106,1248,1376,1595,1701,1896,2026,2240,2411,2500,2591,2704"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,404,533,643,852,983,1129,1460,1679,1789,1984,2118,2332,2507,2600,2695",
-                        "endColumns": "104,193,128,109,208,130,145,131,218,109,194,133,213,174,92,94,116",
-                        "endOffsets": "205,399,528,638,847,978,1124,1256,1674,1784,1979,2113,2327,2502,2595,2690,2807"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\values-fr_values-fr.arsc.flat",
             "map": [
                 {
@@ -337,44 +281,27 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\values-nb_values-nb.arsc.flat",
+            "outputFile": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\values-et_values-et.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\d5cbc4584967a18e03313036bcd07885\\jetified-play-services-basement-17.1.0\\res\\values-nb\\values.xml",
+                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\d5cbc4584967a18e03313036bcd07885\\jetified-play-services-basement-17.1.0\\res\\values-et\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
                         "startOffsets": "247",
-                        "endColumns": "188",
-                        "endOffsets": "435"
+                        "endColumns": "198",
+                        "endOffsets": "445"
                     },
                     "to": {
                         "startLines": "10",
                         "startColumns": "4",
-                        "startOffsets": "1271",
-                        "endColumns": "188",
+                        "startOffsets": "1261",
+                        "endColumns": "198",
                         "endOffsets": "1455"
                     }
                 },
                 {
-                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\1f9db97eb152a36493e18af28499b1e2\\jetified-play-services-base-17.1.0\\res\\values-nb\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,348,539,663,770,985,1113,1259,1387,1600,1705,1897,2023,2224,2426,2519,2607",
-                        "endColumns": "102,190,123,106,214,127,145,127,212,104,191,125,200,201,92,87,102",
-                        "endOffsets": "347,538,662,769,984,1112,1258,1386,1599,1704,1896,2022,2223,2425,2518,2606,2709"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,212,403,531,642,857,989,1139,1460,1673,1782,1974,2104,2305,2511,2608,2700",
-                        "endColumns": "106,190,127,110,214,131,149,131,212,108,191,129,200,205,96,91,106",
-                        "endOffsets": "207,398,526,637,852,984,1134,1266,1668,1777,1969,2099,2300,2506,2603,2695,2802"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\values-nb\\values-nb.xml",
+                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -385,9 +312,26 @@
                     "to": {
                         "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "2807",
+                        "startOffsets": "2812",
                         "endColumns": "100",
-                        "endOffsets": "2903"
+                        "endOffsets": "2908"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\1f9db97eb152a36493e18af28499b1e2\\jetified-play-services-base-17.1.0\\res\\values-et\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,346,540,665,771,980,1107,1249,1377,1596,1702,1897,2027,2241,2412,2501,2592",
+                        "endColumns": "100,193,124,105,208,126,141,127,218,105,194,129,213,170,88,90,112",
+                        "endOffsets": "345,539,664,770,979,1106,1248,1376,1595,1701,1896,2026,2240,2411,2500,2591,2704"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,404,533,643,852,983,1129,1460,1679,1789,1984,2118,2332,2507,2600,2695",
+                        "endColumns": "104,193,128,109,208,130,145,131,218,109,194,133,213,174,92,94,116",
+                        "endOffsets": "205,399,528,638,847,978,1124,1256,1674,1784,1979,2113,2327,2502,2595,2690,2807"
                     }
                 }
             ]
@@ -444,6 +388,62 @@
                         "startOffsets": "1306",
                         "endColumns": "209",
                         "endOffsets": "1511"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\xavia\\Documentos\\GitHub\\TeaApp\\build\\app\\intermediates\\res\\merged\\release\\values-nb_values-nb.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\d5cbc4584967a18e03313036bcd07885\\jetified-play-services-basement-17.1.0\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "188",
+                        "endOffsets": "435"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1271",
+                        "endColumns": "188",
+                        "endOffsets": "1455"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\1f9db97eb152a36493e18af28499b1e2\\jetified-play-services-base-17.1.0\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,348,539,663,770,985,1113,1259,1387,1600,1705,1897,2023,2224,2426,2519,2607",
+                        "endColumns": "102,190,123,106,214,127,145,127,212,104,191,125,200,201,92,87,102",
+                        "endOffsets": "347,538,662,769,984,1112,1258,1386,1599,1704,1896,2022,2223,2425,2518,2606,2709"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,403,531,642,857,989,1139,1460,1673,1782,1974,2104,2305,2511,2608,2700",
+                        "endColumns": "106,190,127,110,214,131,149,131,212,108,191,129,200,205,96,91,106",
+                        "endOffsets": "207,398,526,637,852,984,1134,1266,1668,1777,1969,2099,2300,2506,2603,2695,2802"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\xavia\\.gradle\\caches\\transforms-2\\files-2.1\\661916236e43717cc696f8739fdee049\\core-1.1.0\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2807",
+                        "endColumns": "100",
+                        "endOffsets": "2903"
                     }
                 }
             ]

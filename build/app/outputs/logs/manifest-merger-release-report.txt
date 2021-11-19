@@ -104,9 +104,9 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\xa
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\661916236e43717cc696f8739fdee049\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\Users\xavia\Documentos\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:4:9-45
+		ADDED from C:\Users\xavia\Documentos\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:4:9-32
 	android:icon
-		ADDED from C:\Users\xavia\Documentos\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:5:9-43
+		ADDED from C:\Users\xavia\Documentos\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:5:9-45
 activity#com.example.email_password_login.MainActivity
 ADDED from C:\Users\xavia\Documentos\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:6:9-34:20
 	android:launchMode

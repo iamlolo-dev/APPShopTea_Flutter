@@ -21,10 +21,10 @@
 14-->C:\Users\xavia\Documentos\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:3:4-40:19
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 15-->[androidx.core:core:1.1.0] C:\Users\xavia\.gradle\caches\transforms-2\files-2.1\661916236e43717cc696f8739fdee049\core-1.1.0\AndroidManifest.xml:24:18-86
-16        android:icon="@mipmap/ic_launcher"
-16-->C:\Users\xavia\Documentos\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:5:9-43
-17        android:label="email_password_login" >
-17-->C:\Users\xavia\Documentos\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:4:9-45
+16        android:icon="@mipmap/launcher_icon"
+16-->C:\Users\xavia\Documentos\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:5:9-45
+17        android:label="Tea App" >
+17-->C:\Users\xavia\Documentos\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:4:9-32
 18        <activity
 18-->C:\Users\xavia\Documentos\GitHub\TeaApp\android\app\src\main\AndroidManifest.xml:6:9-34:20
 19            android:name="com.example.email_password_login.MainActivity"
