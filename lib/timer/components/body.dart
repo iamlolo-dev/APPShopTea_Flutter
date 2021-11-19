@@ -70,9 +70,11 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
           ),
           FloatingActionButton(
             onPressed: dispose,
-            child: Icon(Icons.restart_alt_outlined),
-            backgroundColor: Colors.teal,
-          )
+            child: Icon(
+              Icons.pause,
+              color: Colors.teal,
+            ),
+          ),
         ],
       ),
     );
