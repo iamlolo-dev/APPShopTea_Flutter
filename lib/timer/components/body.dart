@@ -6,9 +6,9 @@ import 'dart:async';
 import 'package:flutter/rendering.dart';
 
 class Body extends StatefulWidget {
-  Body({Key? key, required this.title}) : super(key: key);
-
-  final String title;
+  Body({
+    Key? key,
+  }) : super(key: key);
 
   @override
   _BodyState createState() => _BodyState();
@@ -61,7 +61,7 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
   Widget _timeButtons() {
     return Container(
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           FloatingActionButton(
             onPressed: initState,
@@ -81,7 +81,7 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
   Widget _teaButton1() {
     return Container(
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           FloatingActionButton.extended(
             onPressed: () => setState(() {
@@ -109,7 +109,7 @@ class _BodyState extends State<Body> with TickerProviderStateMixin {
   Widget _teaButton2() {
     return Container(
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           FloatingActionButton.extended(
             onPressed: () => setState(
