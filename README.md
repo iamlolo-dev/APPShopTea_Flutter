@@ -17,7 +17,7 @@ There are three screens: store, timer, profile. You can visit the store to acces
 The project is structured by folders, each folder will have a subfolder called "components" in which is the frontend and backend of the screens.
 
 ## Contact us:
-xavgom.alu@iesbenigaslo.es - @masterprog-cmd
+xavgom.alu@iesbenigaslo.es - @masterprog-cmd;
 mangarmun.alu@iesbenigaslo.es - @wizovo
 
 ## Developed language:
